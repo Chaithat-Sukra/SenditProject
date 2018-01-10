@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20316FD32005C3D000C3033D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20316FD22005C3D000C3033D /* MainViewController.swift */; };
+		20BE5C892005C5950026AFBC /* HTTPSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5C872005C5950026AFBC /* HTTPSessionManager.swift */; };
+		20BE5C8A2005C5950026AFBC /* ObjectEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5C882005C5950026AFBC /* ObjectEvent.swift */; };
+		20BE5C8C2005C5A50026AFBC /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BE5C8B2005C5A50026AFBC /* placeholder.png */; };
+		20BE5C8E2005C7310026AFBC /* InitBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5C8D2005C7310026AFBC /* InitBL.swift */; };
+		20BE5C932005D35F0026AFBC /* SenditCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5C912005D35F0026AFBC /* SenditCoreData.xcdatamodeld */; };
+		20BE5CA52005DA180026AFBC /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5CA42005DA180026AFBC /* ItemModel.swift */; };
+		20BE5CAC2005DCCF0026AFBC /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5CAA2005DCCF0026AFBC /* Item+CoreDataClass.swift */; };
+		20BE5CAD2005DCCF0026AFBC /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5CAB2005DCCF0026AFBC /* Item+CoreDataProperties.swift */; };
+		20BE5CAF2005DD940026AFBC /* CoreDataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5CAE2005DD940026AFBC /* CoreDataAdapter.swift */; };
+		20BE5CB120060A880026AFBC /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5CB020060A880026AFBC /* ItemTableViewCell.swift */; };
+		20BE5CB320060D2A0026AFBC /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5CB220060D2A0026AFBC /* ItemViewModel.swift */; };
 		20CF5E5E2003CE420012C8F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF5E5D2003CE420012C8F3 /* AppDelegate.swift */; };
-		20CF5E602003CE420012C8F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF5E5F2003CE420012C8F3 /* ViewController.swift */; };
 		20CF5E632003CE420012C8F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CF5E612003CE420012C8F3 /* Main.storyboard */; };
 		20CF5E652003CE420012C8F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CF5E642003CE420012C8F3 /* Assets.xcassets */; };
 		20CF5E682003CE420012C8F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CF5E662003CE420012C8F3 /* LaunchScreen.storyboard */; };
+		753974CD37D2E3386E2D2D9D /* Pods_SenditProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229491268DD79234FAB3569C /* Pods_SenditProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20316FD22005C3D000C3033D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		20BE5C872005C5950026AFBC /* HTTPSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSessionManager.swift; sourceTree = "<group>"; };
+		20BE5C882005C5950026AFBC /* ObjectEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectEvent.swift; sourceTree = "<group>"; };
+		20BE5C8B2005C5A50026AFBC /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		20BE5C8D2005C7310026AFBC /* InitBL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitBL.swift; sourceTree = "<group>"; };
+		20BE5C922005D35F0026AFBC /* SenditCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SenditCoreData.xcdatamodel; sourceTree = "<group>"; };
+		20BE5CA42005DA180026AFBC /* ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		20BE5CAA2005DCCF0026AFBC /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		20BE5CAB2005DCCF0026AFBC /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		20BE5CAE2005DD940026AFBC /* CoreDataAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataAdapter.swift; sourceTree = "<group>"; };
+		20BE5CB020060A880026AFBC /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		20BE5CB220060D2A0026AFBC /* ItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
 		20CF5E5A2003CE420012C8F3 /* SenditProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenditProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CF5E5D2003CE420012C8F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20CF5E5F2003CE420012C8F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20CF5E622003CE420012C8F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20CF5E642003CE420012C8F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20CF5E672003CE420012C8F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20CF5E692003CE420012C8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229491268DD79234FAB3569C /* Pods_SenditProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SenditProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3488ED292E7E5D67C3D8B559 /* Pods-SenditProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenditProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SenditProject/Pods-SenditProject.release.xcconfig"; sourceTree = "<group>"; };
+		F99D06CDDC043033ABD64EF5 /* Pods-SenditProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenditProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SenditProject/Pods-SenditProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753974CD37D2E3386E2D2D9D /* Pods_SenditProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E05A13C3F3B109163EE39C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				229491268DD79234FAB3569C /* Pods_SenditProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		20CF5E512003CE420012C8F3 = {
 			isa = PBXGroup;
 			children = (
 				20CF5E5C2003CE420012C8F3 /* SenditProject */,
 				20CF5E5B2003CE420012C8F3 /* Products */,
+				E84472940DC7A15C35754C99 /* Pods */,
+				0E05A13C3F3B109163EE39C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,34 @@
 		20CF5E5C2003CE420012C8F3 /* SenditProject */ = {
 			isa = PBXGroup;
 			children = (
+				20BE5CAA2005DCCF0026AFBC /* Item+CoreDataClass.swift */,
+				20BE5CAB2005DCCF0026AFBC /* Item+CoreDataProperties.swift */,
+				20BE5CA42005DA180026AFBC /* ItemModel.swift */,
+				20BE5C8B2005C5A50026AFBC /* placeholder.png */,
+				20BE5C872005C5950026AFBC /* HTTPSessionManager.swift */,
+				20BE5C8D2005C7310026AFBC /* InitBL.swift */,
+				20BE5C882005C5950026AFBC /* ObjectEvent.swift */,
 				20CF5E5D2003CE420012C8F3 /* AppDelegate.swift */,
-				20CF5E5F2003CE420012C8F3 /* ViewController.swift */,
+				20316FD22005C3D000C3033D /* MainViewController.swift */,
+				20BE5CAE2005DD940026AFBC /* CoreDataAdapter.swift */,
 				20CF5E612003CE420012C8F3 /* Main.storyboard */,
 				20CF5E642003CE420012C8F3 /* Assets.xcassets */,
 				20CF5E662003CE420012C8F3 /* LaunchScreen.storyboard */,
 				20CF5E692003CE420012C8F3 /* Info.plist */,
+				20BE5C912005D35F0026AFBC /* SenditCoreData.xcdatamodeld */,
+				20BE5CB020060A880026AFBC /* ItemTableViewCell.swift */,
+				20BE5CB220060D2A0026AFBC /* ItemViewModel.swift */,
 			);
 			path = SenditProject;
+			sourceTree = "<group>";
+		};
+		E84472940DC7A15C35754C99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F99D06CDDC043033ABD64EF5 /* Pods-SenditProject.debug.xcconfig */,
+				3488ED292E7E5D67C3D8B559 /* Pods-SenditProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20CF5E6C2003CE420012C8F3 /* Build configuration list for PBXNativeTarget "SenditProject" */;
 			buildPhases = (
+				62BDF5DC8EFC3F6FA5845F88 /* [CP] Check Pods Manifest.lock */,
 				20CF5E562003CE420012C8F3 /* Sources */,
 				20CF5E572003CE420012C8F3 /* Frameworks */,
 				20CF5E582003CE420012C8F3 /* Resources */,
+				DB04D304EA0B850F839B5344 /* [CP] Embed Pods Frameworks */,
+				F20FFAF22100550D213A8E71 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20CF5E682003CE420012C8F3 /* LaunchScreen.storyboard in Resources */,
+				20BE5C8C2005C5A50026AFBC /* placeholder.png in Resources */,
 				20CF5E652003CE420012C8F3 /* Assets.xcassets in Resources */,
 				20CF5E632003CE420012C8F3 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +193,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62BDF5DC8EFC3F6FA5845F88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SenditProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB04D304EA0B850F839B5344 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SenditProject/Pods-SenditProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SenditProject/Pods-SenditProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F20FFAF22100550D213A8E71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SenditProject/Pods-SenditProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20CF5E562003CE420012C8F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20CF5E602003CE420012C8F3 /* ViewController.swift in Sources */,
+				20BE5CA52005DA180026AFBC /* ItemModel.swift in Sources */,
 				20CF5E5E2003CE420012C8F3 /* AppDelegate.swift in Sources */,
+				20BE5CAF2005DD940026AFBC /* CoreDataAdapter.swift in Sources */,
+				20BE5C8A2005C5950026AFBC /* ObjectEvent.swift in Sources */,
+				20BE5CAC2005DCCF0026AFBC /* Item+CoreDataClass.swift in Sources */,
+				20BE5CB320060D2A0026AFBC /* ItemViewModel.swift in Sources */,
+				20BE5CAD2005DCCF0026AFBC /* Item+CoreDataProperties.swift in Sources */,
+				20316FD32005C3D000C3033D /* MainViewController.swift in Sources */,
+				20BE5C8E2005C7310026AFBC /* InitBL.swift in Sources */,
+				20BE5C932005D35F0026AFBC /* SenditCoreData.xcdatamodeld in Sources */,
+				20BE5CB120060A880026AFBC /* ItemTableViewCell.swift in Sources */,
+				20BE5C892005C5950026AFBC /* HTTPSessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +384,7 @@
 		};
 		20CF5E6D2003CE420012C8F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99D06CDDC043033ABD64EF5 /* Pods-SenditProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9L4ETSWFUJ;
@@ -272,6 +398,7 @@
 		};
 		20CF5E6E2003CE420012C8F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3488ED292E7E5D67C3D8B559 /* Pods-SenditProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9L4ETSWFUJ;
@@ -302,8 +429,22 @@
 				20CF5E6E2003CE420012C8F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20BE5C912005D35F0026AFBC /* SenditCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20BE5C922005D35F0026AFBC /* SenditCoreData.xcdatamodel */,
+			);
+			currentVersion = 20BE5C922005D35F0026AFBC /* SenditCoreData.xcdatamodel */;
+			path = SenditCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 20CF5E522003CE420012C8F3 /* Project object */;
 }

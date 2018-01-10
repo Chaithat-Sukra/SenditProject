@@ -10,6 +10,11 @@ import UIKit
 
 class ItemTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var lbName: UILabel!
+    @IBOutlet weak var imgvItem: UIImageView!
+    @IBOutlet weak var lbDesc: UILabel!
+    @IBOutlet weak var lbURL: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

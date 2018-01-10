@@ -12,5 +12,5 @@ class ObjectEvent: NSObject {
     var isSuccessful: Bool = false
     var status: Int!
     var resultMessage: String!
-    var result: Any!
+    var result: [[String: Any]]!
 }

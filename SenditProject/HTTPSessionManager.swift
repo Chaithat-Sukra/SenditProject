@@ -14,7 +14,7 @@ class HTTPSessionManager {
     public let urlString: String!
     
     init() {
-        self.urlString = "http://localhost:5000/"
+        self.urlString = "https://rightman.sendit.asia/"
     }
     
     func requestGET(_ aEndPoint: String, aCompletion: @escaping(ObjectEvent) -> Void) {
@@ -41,9 +41,8 @@ class HTTPSessionManager {
                     return
                 }
                 
-                if let value = response.result.value as? [String: Any] {
-                    let isStatusOK = value["status"] as? Bool
-                    event.isSuccessful = isStatusOK!
+                if let value = response.result.value as? [[String: Any]] {
+                    event.isSuccessful = true
                     event.result = value
                 }
                 
