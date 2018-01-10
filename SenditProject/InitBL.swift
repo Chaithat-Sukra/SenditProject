@@ -28,9 +28,6 @@ class InitBL: NSObject {
                 item.image = itemModel.image
                 
                 items.append(itemModel)
-                if items.count == 20 {
-                    break
-                }
             }
             
             CoreDataAdapter.sharedInstance.saveContext { (aCompletion) in

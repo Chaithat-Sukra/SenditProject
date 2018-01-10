@@ -4,6 +4,7 @@ use_frameworks!
 target 'SenditProject' do
 
 pod 'Alamofire'
+pod 'AlamofireImage'
 
 end
 

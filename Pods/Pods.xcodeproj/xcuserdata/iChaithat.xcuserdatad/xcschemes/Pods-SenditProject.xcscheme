@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E00F7260B73B516446E4A862DC3FD003"
+               BlueprintIdentifier = "7A602AE7E52B989ACE959EE7D575ED39"
                BuildableName = "Pods_SenditProject.framework"
                BlueprintName = "Pods-SenditProject"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E00F7260B73B516446E4A862DC3FD003"
+            BlueprintIdentifier = "7A602AE7E52B989ACE959EE7D575ED39"
             BuildableName = "Pods_SenditProject.framework"
             BlueprintName = "Pods-SenditProject"
             ReferencedContainer = "container:Pods.xcodeproj">

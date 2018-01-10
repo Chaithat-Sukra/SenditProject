@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class MainViewController: UIViewController {
     
@@ -91,7 +92,8 @@ extension MainViewController: UITableViewDataSource {
         }
         let item: ItemModel = self.viewModel.filteredItems[indexPath.row];
         
-        cell.imgvItem.image = UIImage(named: "placeholder.png")
+        let placeholderImage = UIImage(named: "placeholder")!
+        cell.imgvItem.af_setImage(withURL: URL(string: item.image)!, placeholderImage: placeholderImage)
         cell.lbName.text = item.name
         cell.lbName.textAlignment = .center
         cell.lbDesc.text = item.desc
