@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SenditProjectVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SenditProjectVersionString[];
+FOUNDATION_EXPORT double AlamofireImageVersionNumber;
+FOUNDATION_EXPORT const unsigned char AlamofireImageVersionString[];
 

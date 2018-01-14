@@ -13,6 +13,7 @@
 		202822E4668C16D115A8F68F3ADF0E0F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6EFA1B14F4F2AC1C907F7D8D75E2A2 /* ImageDownloader.swift */; };
 		26479B07464784F3BF8C0853CA049976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
 		27996F52CCABBD6D0874B79D1B913598 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC78F0C59D72E536A49A29DF9551B2FC /* ImageFilter.swift */; };
+		2A4CE7431F9333B5FCBF502AE28D8E14 /* Pods-Sendit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C803F5C30119DB7EC2BA5D7098857C46 /* Pods-Sendit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BD7CFD41DACC439E8C0A527F1643495 /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39A0238C2D2ED7E1BCF74C638704BCC /* Request+AlamofireImage.swift */; };
 		2EA0415A1A8A4FFC7403E201F915F9A4 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99FF6D0367AC8FAF28B714B9C517B09 /* AFIError.swift */; };
 		304C5736AC5D49B526C709397D0CF048 /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F864B86D55C1EBA65BB1005488236 /* UIImageView+AlamofireImage.swift */; };
@@ -20,14 +21,16 @@
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45CF505DC4805961C6AE375E9B4449 /* TaskDelegate.swift */; };
 		37F951F2BDB75BD682C2999EB7B51A35 /* AlamofireImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A072CF49792CCCD02FBE2404E54F3964 /* AlamofireImage-dummy.m */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C040C3370B9A89F31C2BC19AF5D1C /* Request.swift */; };
+		55B6E12DCAFE038DD148D8F0F468B22D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
 		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46909E67FE468BAA9A40190506BC2DD /* DispatchQueue+Alamofire.swift */; };
 		613167D898FF421A6F75D1FE5D145B9B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61BFE0C2AB6D5B144D90851B0FBBDA /* ServerTrustPolicy.swift */; };
+		712D5E735437B6832EE01A5589E76756 /* Pods-Sendit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 418142AF8984504F3C03683F8E12AEAA /* Pods-Sendit-dummy.m */; };
 		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
 		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB169F7011C3AE22F10E4FB8BB941D0 /* SessionDelegate.swift */; };
 		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB939DAB70B7498BD951FDFBB552630 /* Result.swift */; };
-		8CA0BA356C69E482162E9C62D260D436 /* Pods-SenditProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA2B17D5871E9D92A820CA91763A540 /* Pods-SenditProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9092DCC9A5232C58B18FCA402FFF0485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
+		8132642A8E67C2EB587EDEA5F91CC1D7 /* Pods-Eko-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD01BC6D837B934465CA87611D596231 /* Pods-Eko-dummy.m */; };
+		8BA7B31D274594CC4C8046E86283C8DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
 		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DA7696A230A8C5098EDB1708AB122B /* AFError.swift */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750B175C7230B153936AECFDF9D4B69 /* NetworkReachabilityManager.swift */; };
 		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD4D2047EEAE80AEBCB1594D341FE8 /* Alamofire-dummy.m */; };
@@ -36,22 +39,22 @@
 		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B347EC7347C5B752DAEF7EFC85B3D /* Validation.swift */; };
 		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E36A061568443C4892C00390B9395C /* ParameterEncoding.swift */; };
 		C73BF39A4CCC3E450E102C23027F8FF8 /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506873F53797C3F19F6F175128C827D /* UIButton+AlamofireImage.swift */; };
-		C85BF303AC54AD69FEB64141C7FE35E4 /* Pods-SenditProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A78D77F38D6C9257CD6E6327CE9541 /* Pods-SenditProject-dummy.m */; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF21FE9D010AA7E8064CAB3DDEE4D01 /* Response.swift */; };
 		D9E544B8CB42DA8DD44838F83610D8E0 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B46CA3DB56C3D2E677654A1304B15 /* ImageCache.swift */; };
 		E1FF4985892E23B75A3381EFF830DFD5 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8303DFF4F0412C06016FB01FE8A0AE2C /* Image.swift */; };
+		E2A04385AA29111BB36B61AD5E802A47 /* Pods-Eko-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D36E434C66BAA0A464D36A5E209D31F3 /* Pods-Eko-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48160E946CF60C44697D4766239A69 /* Notifications.swift */; };
 		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1F2DAC9C123E8BF5B8BBA7C3F17E4E /* ResponseSerialization.swift */; };
 		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBD180178B74D26C52790871D11EA82 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		693B7C6B3235F204EE6FF76F14744596 /* PBXContainerItemProxy */ = {
+		22248BBD675A013FC898FBCD6693F664 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
-			remoteInfo = Alamofire;
+			remoteGlobalIDString = 9EFE4C70245EE2857D336B8B9FA4E825;
+			remoteInfo = AlamofireImage;
 		};
 		A1758AA696D56310AA192B587162169A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -60,86 +63,111 @@
 			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
 		};
-		F84EAA0C9DB9C30F44AF7F3E2796096F /* PBXContainerItemProxy */ = {
+		C9AFB6BB83BB272EA0174227D95EA590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		DC1C906FF10CBC756738CF52FC306CF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9EFE4C70245EE2857D336B8B9FA4E825;
 			remoteInfo = AlamofireImage;
 		};
+		E18CA97154718415825C97EF414AA8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00273894B2CACADC70DE7C63D9DE900F /* AlamofireImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-prefix.pch"; sourceTree = "<group>"; };
 		017C040C3370B9A89F31C2BC19AF5D1C /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		0333BE34B2F45E0EE34B0A35DE69A82A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1B8F864B86D55C1EBA65BB1005488236 /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
-		1DA2B17D5871E9D92A820CA91763A540 /* Pods-SenditProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SenditProject-umbrella.h"; sourceTree = "<group>"; };
+		1F356A422578FEDCFA70283B5A133B2C /* Pods-Eko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eko.release.xcconfig"; sourceTree = "<group>"; };
 		22FD4D2047EEAE80AEBCB1594D341FE8 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		293FC5BBACC2B3CE7FE448B61417651A /* Pods-SenditProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SenditProject-acknowledgements.plist"; sourceTree = "<group>"; };
 		29D61A3CF14C9F8A3215CACDE1CD26EE /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		2B3D0A2DB223751ADD1CDBB29699F616 /* Pods-Sendit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendit.release.xcconfig"; sourceTree = "<group>"; };
 		2B91CDE9C60D5C92C6A2EE8754EB1042 /* AlamofireImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-umbrella.h"; sourceTree = "<group>"; };
 		2D6EFA1B14F4F2AC1C907F7D8D75E2A2 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Source/ImageDownloader.swift; sourceTree = "<group>"; };
-		2D6F897E8718BCA0F1B7F123EBBBEBFF /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		2D6F897E8718BCA0F1B7F123EBBBEBFF /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		3071045FC306A312AC3B1D1526987305 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		319D0D5C0A449FE881C76727B80F34B3 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		40925083A89DB524274043A5544403F4 /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Source/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
+		40D8671172AA4F24DF42833A1B491796 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		418142AF8984504F3C03683F8E12AEAA /* Pods-Sendit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sendit-dummy.m"; sourceTree = "<group>"; };
 		445B347EC7347C5B752DAEF7EFC85B3D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		524D446E611527378627D66A7FABE7F2 /* Pods-SenditProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SenditProject.release.xcconfig"; sourceTree = "<group>"; };
-		52A43EB2C95CD8BD4216C6919A14C5D8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF565F5C11D662BABD965D853C01B50 /* Pods-Sendit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Sendit.modulemap"; sourceTree = "<group>"; };
 		5D61BFE0C2AB6D5B144D90851B0FBBDA /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		5F1F2DAC9C123E8BF5B8BBA7C3F17E4E /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		6EEF9922B7F33BDD9975E71A7F2F4359 /* Pods-Eko-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Eko-acknowledgements.plist"; sourceTree = "<group>"; };
 		6FBD180178B74D26C52790871D11EA82 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		720E9DFCD7C8249A72F1C879739AB592 /* Pods-Eko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eko.debug.xcconfig"; sourceTree = "<group>"; };
 		75A86E4845F495D22067D31DD2444516 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		781B64EF8D41726CE91A85A3B0D6D760 /* Pods-SenditProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SenditProject.debug.xcconfig"; sourceTree = "<group>"; };
 		7A337CF61ED3C76DCDB6CABF7DDA57F4 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		7E2EF9E86928682DD9930308B0F45D69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D97BE832E2555E0E220811F7C10896B /* Pods-Eko-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eko-resources.sh"; sourceTree = "<group>"; };
 		7F1B46CA3DB56C3D2E677654A1304B15 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Source/ImageCache.swift; sourceTree = "<group>"; };
+		80C905A87BD76C4E4655961A167094CF /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8303DFF4F0412C06016FB01FE8A0AE2C /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8AF545D4B445792A1FAF371CD122F564 /* Pods_Eko.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eko.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		960A9ABC53BD0948226D437C9716C6B3 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		98F472F506098E24CECCFB57615265DE /* Pods-Sendit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sendit-resources.sh"; sourceTree = "<group>"; };
 		9B37B0F47317288B871A97C51CEF14FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0562E045069F3649B864D1847B96E49 /* Pods_SenditProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SenditProject.framework; path = "Pods-SenditProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A072CF49792CCCD02FBE2404E54F3964 /* AlamofireImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireImage-dummy.m"; sourceTree = "<group>"; };
 		A1F0D298505D12F22418F96BD2D6DE4F /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		A2859C34056FD4F0338956434B494E38 /* Pods-Sendit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sendit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4E7441575172F0FB0C9E6D20D406F2D /* Pods-Eko-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Eko-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A99FF6D0367AC8FAF28B714B9C517B09 /* AFIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFIError.swift; path = Source/AFIError.swift; sourceTree = "<group>"; };
 		AEF21FE9D010AA7E8064CAB3DDEE4D01 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		B0A78D77F38D6C9257CD6E6327CE9541 /* Pods-SenditProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SenditProject-dummy.m"; sourceTree = "<group>"; };
-		BF5ADB26155CE6184E60C4C29BBAED8E /* Pods-SenditProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SenditProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD01BC6D837B934465CA87611D596231 /* Pods-Eko-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Eko-dummy.m"; sourceTree = "<group>"; };
+		C38DA5874D0797F0A0AE720A13AB9A17 /* Pods-Sendit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sendit-frameworks.sh"; sourceTree = "<group>"; };
+		C803F5C30119DB7EC2BA5D7098857C46 /* Pods-Sendit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendit-umbrella.h"; sourceTree = "<group>"; };
 		CD48160E946CF60C44697D4766239A69 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		CEB169F7011C3AE22F10E4FB8BB941D0 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		D36E434C66BAA0A464D36A5E209D31F3 /* Pods-Eko-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Eko-umbrella.h"; sourceTree = "<group>"; };
 		D46909E67FE468BAA9A40190506BC2DD /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		D7DA7696A230A8C5098EDB1708AB122B /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		D8106A308267F2435AD703C7DE4CED44 /* Pods-Eko-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eko-frameworks.sh"; sourceTree = "<group>"; };
 		D9CA9EFBD3188B5D7EB6B99C52233056 /* AlamofireImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireImage.xcconfig; sourceTree = "<group>"; };
-		DB4178C89318022F3FE0DB89F560EB77 /* Pods-SenditProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SenditProject-resources.sh"; sourceTree = "<group>"; };
-		DE95B8FEC7CAF9BC78333688FE7319F1 /* AlamofireImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AlamofireImage.modulemap; sourceTree = "<group>"; };
+		DE95B8FEC7CAF9BC78333688FE7319F1 /* AlamofireImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AlamofireImage.modulemap; sourceTree = "<group>"; };
 		DF45CF505DC4805961C6AE375E9B4449 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		E36C89B31B2D736F608816F6B4CE3196 /* Pods-SenditProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SenditProject.modulemap"; sourceTree = "<group>"; };
+		E06D6A817D47D14B71FF924E8BE2621C /* Pods-Sendit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendit.debug.xcconfig"; sourceTree = "<group>"; };
 		E39A0238C2D2ED7E1BCF74C638704BCC /* Request+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Request+AlamofireImage.swift"; path = "Source/Request+AlamofireImage.swift"; sourceTree = "<group>"; };
-		E3B60363175DFF78BB8CC4E6F2E32C6E /* Pods-SenditProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SenditProject-frameworks.sh"; sourceTree = "<group>"; };
+		EB1926BDF3392C6A91C633078B4243A1 /* Pods-Sendit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sendit-acknowledgements.plist"; sourceTree = "<group>"; };
 		EBB939DAB70B7498BD951FDFBB552630 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		EF190024C22F0D5E90E6433498BE087A /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E36A061568443C4892C00390B9395C /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		F25E756C9C3028D368F08D6594D1DC8A /* Pods_Sendit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sendit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F506873F53797C3F19F6F175128C827D /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
 		F750B175C7230B153936AECFDF9D4B69 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		FAC959F1CC06AB61D59D16C9832FEA08 /* Pods-Eko.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Eko.modulemap"; sourceTree = "<group>"; };
 		FBC3003A826F5946919CB186257CC3E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC78F0C59D72E536A49A29DF9551B2FC /* ImageFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFilter.swift; path = Source/ImageFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8213E40B6569D58B8E373D137949EBB4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9092DCC9A5232C58B18FCA402FFF0485 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBD5E5EB9574AF369FE37205950C66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B6E12DCAFE038DD148D8F0F468B22D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,15 +180,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBB84EC2D0E22A0B69BC7DDBBEC5BFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA7B31D274594CC4C8046E86283C8DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38468E55102563C52A1F86754D96C525 /* Targets Support Files */ = {
+		20C4FCC74D884B141414B2E0B5B757E7 /* Pods-Eko */ = {
 			isa = PBXGroup;
 			children = (
-				62487D75AC2446EFCF6DAC2531AA6BE5 /* Pods-SenditProject */,
+				0333BE34B2F45E0EE34B0A35DE69A82A /* Info.plist */,
+				FAC959F1CC06AB61D59D16C9832FEA08 /* Pods-Eko.modulemap */,
+				A4E7441575172F0FB0C9E6D20D406F2D /* Pods-Eko-acknowledgements.markdown */,
+				6EEF9922B7F33BDD9975E71A7F2F4359 /* Pods-Eko-acknowledgements.plist */,
+				BD01BC6D837B934465CA87611D596231 /* Pods-Eko-dummy.m */,
+				D8106A308267F2435AD703C7DE4CED44 /* Pods-Eko-frameworks.sh */,
+				7D97BE832E2555E0E220811F7C10896B /* Pods-Eko-resources.sh */,
+				D36E434C66BAA0A464D36A5E209D31F3 /* Pods-Eko-umbrella.h */,
+				720E9DFCD7C8249A72F1C879739AB592 /* Pods-Eko.debug.xcconfig */,
+				1F356A422578FEDCFA70283B5A133B2C /* Pods-Eko.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Eko";
+			path = "Target Support Files/Pods-Eko";
 			sourceTree = "<group>";
 		};
 		51A9B78D6A7E7FB5A465754528750815 /* iOS */ = {
@@ -178,24 +224,6 @@
 				51A9B78D6A7E7FB5A465754528750815 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		62487D75AC2446EFCF6DAC2531AA6BE5 /* Pods-SenditProject */ = {
-			isa = PBXGroup;
-			children = (
-				7E2EF9E86928682DD9930308B0F45D69 /* Info.plist */,
-				E36C89B31B2D736F608816F6B4CE3196 /* Pods-SenditProject.modulemap */,
-				BF5ADB26155CE6184E60C4C29BBAED8E /* Pods-SenditProject-acknowledgements.markdown */,
-				293FC5BBACC2B3CE7FE448B61417651A /* Pods-SenditProject-acknowledgements.plist */,
-				B0A78D77F38D6C9257CD6E6327CE9541 /* Pods-SenditProject-dummy.m */,
-				E3B60363175DFF78BB8CC4E6F2E32C6E /* Pods-SenditProject-frameworks.sh */,
-				DB4178C89318022F3FE0DB89F560EB77 /* Pods-SenditProject-resources.sh */,
-				1DA2B17D5871E9D92A820CA91763A540 /* Pods-SenditProject-umbrella.h */,
-				781B64EF8D41726CE91A85A3B0D6D760 /* Pods-SenditProject.debug.xcconfig */,
-				524D446E611527378627D66A7FABE7F2 /* Pods-SenditProject.release.xcconfig */,
-			);
-			name = "Pods-SenditProject";
-			path = "Target Support Files/Pods-SenditProject";
 			sourceTree = "<group>";
 		};
 		6D9BBFEAF2B2CDBC0A3CD05BAD1A9A82 /* Support Files */ = {
@@ -227,19 +255,47 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				59B91F212518421F271EBA85D5530651 /* Frameworks */,
 				6FF3CE06F7D89F16588F3A74B93F1B66 /* Pods */,
-				8546DBB5CA31DA29203834C81FC16BD8 /* Products */,
-				38468E55102563C52A1F86754D96C525 /* Targets Support Files */,
+				830C4ABD6FFF7248CD49112322ABDD87 /* Products */,
+				85CFA05CBA4EFD968CF8EA914158CF04 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8546DBB5CA31DA29203834C81FC16BD8 /* Products */ = {
+		830C4ABD6FFF7248CD49112322ABDD87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52A43EB2C95CD8BD4216C6919A14C5D8 /* Alamofire.framework */,
-				EF190024C22F0D5E90E6433498BE087A /* AlamofireImage.framework */,
-				A0562E045069F3649B864D1847B96E49 /* Pods_SenditProject.framework */,
+				80C905A87BD76C4E4655961A167094CF /* Alamofire.framework */,
+				40D8671172AA4F24DF42833A1B491796 /* AlamofireImage.framework */,
+				8AF545D4B445792A1FAF371CD122F564 /* Pods_Eko.framework */,
+				F25E756C9C3028D368F08D6594D1DC8A /* Pods_Sendit.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		85CFA05CBA4EFD968CF8EA914158CF04 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20C4FCC74D884B141414B2E0B5B757E7 /* Pods-Eko */,
+				9300DA742D5F0F0DC0539AA746C3EBEA /* Pods-Sendit */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9300DA742D5F0F0DC0539AA746C3EBEA /* Pods-Sendit */ = {
+			isa = PBXGroup;
+			children = (
+				3071045FC306A312AC3B1D1526987305 /* Info.plist */,
+				4CF565F5C11D662BABD965D853C01B50 /* Pods-Sendit.modulemap */,
+				A2859C34056FD4F0338956434B494E38 /* Pods-Sendit-acknowledgements.markdown */,
+				EB1926BDF3392C6A91C633078B4243A1 /* Pods-Sendit-acknowledgements.plist */,
+				418142AF8984504F3C03683F8E12AEAA /* Pods-Sendit-dummy.m */,
+				C38DA5874D0797F0A0AE720A13AB9A17 /* Pods-Sendit-frameworks.sh */,
+				98F472F506098E24CECCFB57615265DE /* Pods-Sendit-resources.sh */,
+				C803F5C30119DB7EC2BA5D7098857C46 /* Pods-Sendit-umbrella.h */,
+				E06D6A817D47D14B71FF924E8BE2621C /* Pods-Sendit.debug.xcconfig */,
+				2B3D0A2DB223751ADD1CDBB29699F616 /* Pods-Sendit.release.xcconfig */,
+			);
+			name = "Pods-Sendit";
+			path = "Target Support Files/Pods-Sendit";
 			sourceTree = "<group>";
 		};
 		BA38DA63E92F45B63F1442D6D11ADBEA /* Support Files */ = {
@@ -278,7 +334,6 @@
 				445B347EC7347C5B752DAEF7EFC85B3D /* Validation.swift */,
 				BA38DA63E92F45B63F1442D6D11ADBEA /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -296,18 +351,25 @@
 				1B8F864B86D55C1EBA65BB1005488236 /* UIImageView+AlamofireImage.swift */,
 				6D9BBFEAF2B2CDBC0A3CD05BAD1A9A82 /* Support Files */,
 			);
-			name = AlamofireImage;
 			path = AlamofireImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3388917E1A937AB786469D27499C8ED8 /* Headers */ = {
+		03F89ED207DC280E9607414ECE5F3A4A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CA0BA356C69E482162E9C62D260D436 /* Pods-SenditProject-umbrella.h in Headers */,
+				2A4CE7431F9333B5FCBF502AE28D8E14 /* Pods-Sendit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CFFF10A80E572172895333C237210F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A04385AA29111BB36B61AD5E802A47 /* Pods-Eko-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,23 +392,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7A602AE7E52B989ACE959EE7D575ED39 /* Pods-SenditProject */ = {
+		830A07BCACD7379D235523B6D92EF75F /* Pods-Sendit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2BD27A23C8A9799B9BBD72C90866C77 /* Build configuration list for PBXNativeTarget "Pods-SenditProject" */;
+			buildConfigurationList = 656DDACB99F131DF54441A9A5B58412C /* Build configuration list for PBXNativeTarget "Pods-Sendit" */;
 			buildPhases = (
-				AF704D833D47B28A2F47EF2911F03E54 /* Sources */,
-				8213E40B6569D58B8E373D137949EBB4 /* Frameworks */,
-				3388917E1A937AB786469D27499C8ED8 /* Headers */,
+				EF4D89C695C97E843A6E0A7A306B1ABA /* Sources */,
+				FBB84EC2D0E22A0B69BC7DDBBEC5BFC2 /* Frameworks */,
+				03F89ED207DC280E9607414ECE5F3A4A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B3447BE25E5E898AF47A53D5EB02335B /* PBXTargetDependency */,
-				573FD8ED421097F6B1E48AA436EF71F2 /* PBXTargetDependency */,
+				F3284E336AF36CDE8393653C3798F1A5 /* PBXTargetDependency */,
+				16647F4C65E61FC312448B282E0E4A4A /* PBXTargetDependency */,
 			);
-			name = "Pods-SenditProject";
-			productName = "Pods-SenditProject";
-			productReference = A0562E045069F3649B864D1847B96E49 /* Pods_SenditProject.framework */;
+			name = "Pods-Sendit";
+			productName = "Pods-Sendit";
+			productReference = F25E756C9C3028D368F08D6594D1DC8A /* Pods_Sendit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -363,7 +425,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 52A43EB2C95CD8BD4216C6919A14C5D8 /* Alamofire.framework */;
+			productReference = 80C905A87BD76C4E4655961A167094CF /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */ = {
@@ -381,7 +443,26 @@
 			);
 			name = AlamofireImage;
 			productName = AlamofireImage;
-			productReference = EF190024C22F0D5E90E6433498BE087A /* AlamofireImage.framework */;
+			productReference = 40D8671172AA4F24DF42833A1B491796 /* AlamofireImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B072F7FA16C410DB3223999ACD72C471 /* Pods-Eko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9271863CA0D79838D430D18968E4D3C9 /* Build configuration list for PBXNativeTarget "Pods-Eko" */;
+			buildPhases = (
+				332696F204FD60DBF7E14B2F66690436 /* Sources */,
+				9BBD5E5EB9574AF369FE37205950C66C /* Frameworks */,
+				91CFFF10A80E572172895333C237210F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				001118B6F9193BFA88316FF084A76E74 /* PBXTargetDependency */,
+				EE22149F5D2AA7EE0D14D05C2D62DEA7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Eko";
+			productName = "Pods-Eko";
+			productReference = 8AF545D4B445792A1FAF371CD122F564 /* Pods_Eko.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -401,13 +482,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8546DBB5CA31DA29203834C81FC16BD8 /* Products */;
+			productRefGroup = 830C4ABD6FFF7248CD49112322ABDD87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
 				9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */,
-				7A602AE7E52B989ACE959EE7D575ED39 /* Pods-SenditProject */,
+				B072F7FA16C410DB3223999ACD72C471 /* Pods-Eko */,
+				830A07BCACD7379D235523B6D92EF75F /* Pods-Sendit */,
 			);
 		};
 /* End PBXProject section */
@@ -438,11 +520,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF704D833D47B28A2F47EF2911F03E54 /* Sources */ = {
+		332696F204FD60DBF7E14B2F66690436 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C85BF303AC54AD69FEB64141C7FE35E4 /* Pods-SenditProject-dummy.m in Sources */,
+				8132642A8E67C2EB587EDEA5F91CC1D7 /* Pods-Eko-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,14 +545,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF4D89C695C97E843A6E0A7A306B1ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712D5E735437B6832EE01A5589E76756 /* Pods-Sendit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		573FD8ED421097F6B1E48AA436EF71F2 /* PBXTargetDependency */ = {
+		001118B6F9193BFA88316FF084A76E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = C9AFB6BB83BB272EA0174227D95EA590 /* PBXContainerItemProxy */;
+		};
+		16647F4C65E61FC312448B282E0E4A4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AlamofireImage;
 			target = 9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */;
-			targetProxy = F84EAA0C9DB9C30F44AF7F3E2796096F /* PBXContainerItemProxy */;
+			targetProxy = DC1C906FF10CBC756738CF52FC306CF6 /* PBXContainerItemProxy */;
 		};
 		8937A2057A0DAADF003B7C65E7CE115D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -478,15 +574,59 @@
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
 			targetProxy = A1758AA696D56310AA192B587162169A /* PBXContainerItemProxy */;
 		};
-		B3447BE25E5E898AF47A53D5EB02335B /* PBXTargetDependency */ = {
+		EE22149F5D2AA7EE0D14D05C2D62DEA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			target = 9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */;
+			targetProxy = 22248BBD675A013FC898FBCD6693F664 /* PBXContainerItemProxy */;
+		};
+		F3284E336AF36CDE8393653C3798F1A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = 693B7C6B3235F204EE6FF76F14744596 /* PBXContainerItemProxy */;
+			targetProxy = E18CA97154718415825C97EF414AA8E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0525AFE2F77E10C3C6B277220CF6D17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3D0A2DB223751ADD1CDBB29699F616 /* Pods-Sendit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendit/Pods-Sendit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Sendit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		077C4BB7DBEAA715DED46C057DC8051C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 960A9ABC53BD0948226D437C9716C6B3 /* Alamofire.xcconfig */;
@@ -522,9 +662,9 @@
 			};
 			name = Release;
 		};
-		1C9676C487A8153C4E3FE70288C6A987 /* Debug */ = {
+		13B2D6D81DD12A3FEC78CE145EED6F15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781B64EF8D41726CE91A85A3B0D6D760 /* Pods-SenditProject.debug.xcconfig */;
+			baseConfigurationReference = E06D6A817D47D14B71FF924E8BE2621C /* Pods-Sendit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -538,18 +678,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SenditProject/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SenditProject/Pods-SenditProject.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendit/Pods-Sendit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SenditProject;
+				PRODUCT_NAME = Pods_Sendit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -560,6 +700,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		4172D8D2F049E33E94DA9F627C694CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F356A422578FEDCFA70283B5A133B2C /* Pods-Eko.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Eko/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Eko/Pods-Eko.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Eko;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		5F987C4DBB7A61D3209C1AE350EA6572 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -637,11 +815,51 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A7A3771EF0F34570A863339AF5033E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720E9DFCD7C8249A72F1C879739AB592 /* Pods-Eko.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Eko/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Eko/Pods-Eko.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Eko;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -682,48 +900,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C42560A0EF5CEE6F99B3F5731B6F5D4A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 524D446E611527378627D66A7FABE7F2 /* Pods-SenditProject.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SenditProject/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SenditProject/Pods-SenditProject.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SenditProject;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -827,11 +1009,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2BD27A23C8A9799B9BBD72C90866C77 /* Build configuration list for PBXNativeTarget "Pods-SenditProject" */ = {
+		656DDACB99F131DF54441A9A5B58412C /* Build configuration list for PBXNativeTarget "Pods-Sendit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C9676C487A8153C4E3FE70288C6A987 /* Debug */,
-				C42560A0EF5CEE6F99B3F5731B6F5D4A /* Release */,
+				13B2D6D81DD12A3FEC78CE145EED6F15 /* Debug */,
+				0525AFE2F77E10C3C6B277220CF6D17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9271863CA0D79838D430D18968E4D3C9 /* Build configuration list for PBXNativeTarget "Pods-Eko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A3771EF0F34570A863339AF5033E33 /* Debug */,
+				4172D8D2F049E33E94DA9F627C694CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

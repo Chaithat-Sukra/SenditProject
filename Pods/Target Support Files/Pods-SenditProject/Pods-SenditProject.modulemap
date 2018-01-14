@@ -1,6 +1,0 @@
-framework module Pods_SenditProject {
-  umbrella header "Pods-SenditProject-umbrella.h"
-
-  export *
-  module * { export * }
-}
