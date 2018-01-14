@@ -6,17 +6,23 @@
 //  Copyright © 2018 Chaithat Sukra. All rights reserved.
 //
 
-import Foundation
 import CoreData
 
-class InitBL: NSObject {
-    let manager: HTTPSessionManager = HTTPSessionManager()
-    
+class InitBL: BaseBL, BLProtocol {
     func requestData(aSuccess: @escaping ([ItemModel]) -> Void) {
         manager.requestGET("api/items/list.json") { (aEvent: ObjectEvent) in
             var items: [ItemModel] = [ItemModel]()
             for o in aEvent.result {
-                let itemModel: ItemModel = ItemModel(aData: o)
+                
+                let id = o["id"] as! Int16
+                let name = o["name"] as! String
+                let desc = o["description"] as! String
+                let icon = o["icon"] as! String
+                let timestamp = o["timestamp"] as! Int64
+                let url = o["url"] as! String
+                let image = o["image"] as! String
+                
+                let itemModel: ItemModel = ItemModel(id: id, name: name, desc: desc, icon: icon, timestamp: timestamp, url: url, image: image)
                 
                 let item = NSEntityDescription.insertNewObject(forEntityName: "Item", into: CoreDataAdapter.sharedInstance.persistentContainer.viewContext) as! Item
                 item.id = itemModel.id

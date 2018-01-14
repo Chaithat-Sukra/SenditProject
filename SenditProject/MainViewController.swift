@@ -18,7 +18,7 @@ class MainViewController: UIViewController {
     let refreshControl = UIRefreshControl()
     let searchController = UISearchController(searchResultsController: nil)
     
-    let bl: InitBL = InitBL()
+    var bl: BLProtocol!
     
     fileprivate var viewModel: ItemViewModel = ItemViewModel() {
         didSet {
@@ -32,6 +32,8 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.bl = MainFactory.getMainBL()
+        
         self.refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
         self.refreshControl.addTarget(self, action: #selector(refresh(_:)), for: .valueChanged)
         self.refreshControl.beginRefreshing()

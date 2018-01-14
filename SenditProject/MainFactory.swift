@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+struct MainFactory {
+    public static func getMainBL() -> BLProtocol! {
+        if let fileName = Bundle.main.infoDictionary?["CFBundleName"] as? String {
+            if fileName == "Sendit" {
+                return InitBL()
+            }
+            else if fileName == "Eko" {
+                return GitBL()
+            }
+        }
+        return nil
+    }
+}

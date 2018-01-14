@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol BLProtocol {
+    func requestData(aSuccess: @escaping ([ItemModel]) -> Void)
+}

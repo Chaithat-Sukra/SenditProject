@@ -14,7 +14,8 @@ class HTTPSessionManager {
     public let urlString: String!
     
     init() {
-        self.urlString = "https://rightman.sendit.asia/"
+        let fileName = Bundle.main.infoDictionary?["URL"] as! String
+        self.urlString = fileName
     }
     
     func requestGET(_ aEndPoint: String, aCompletion: @escaping(ObjectEvent) -> Void) {

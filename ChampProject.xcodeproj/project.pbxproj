@@ -26,6 +26,13 @@
 		20B3501B200B2197005B605E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CF5E612003CE420012C8F3 /* Main.storyboard */; };
 		20B35026200B21FD005B605E /* Sendit.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20B35024200B21FD005B605E /* Sendit.plist */; };
 		20B35027200B225B005B605E /* Eko.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20B35023200B21FD005B605E /* Eko.plist */; };
+		20B35029200B26A4005B605E /* BaseBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35028200B26A4005B605E /* BaseBL.swift */; };
+		20B3502E200B2779005B605E /* MainFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3502D200B2779005B605E /* MainFactory.swift */; };
+		20B3502F200B2779005B605E /* MainFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3502D200B2779005B605E /* MainFactory.swift */; };
+		20B35031200B80B9005B605E /* BLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35030200B80B9005B605E /* BLProtocol.swift */; };
+		20B35032200B80B9005B605E /* BLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35030200B80B9005B605E /* BLProtocol.swift */; };
+		20B35033200B880C005B605E /* BaseBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35028200B26A4005B605E /* BaseBL.swift */; };
+		20B35034200B8825005B605E /* GitBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3502A200B26CE005B605E /* GitBL.swift */; };
 		20BE5C892005C5950026AFBC /* HTTPSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5C872005C5950026AFBC /* HTTPSessionManager.swift */; };
 		20BE5C8A2005C5950026AFBC /* ObjectEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5C882005C5950026AFBC /* ObjectEvent.swift */; };
 		20BE5C8C2005C5A50026AFBC /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BE5C8B2005C5A50026AFBC /* placeholder.png */; };
@@ -51,6 +58,10 @@
 		20B35021200B2197005B605E /* Eko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B35023200B21FD005B605E /* Eko.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Eko.plist; sourceTree = "<group>"; };
 		20B35024200B21FD005B605E /* Sendit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sendit.plist; sourceTree = "<group>"; };
+		20B35028200B26A4005B605E /* BaseBL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseBL.swift; sourceTree = "<group>"; };
+		20B3502A200B26CE005B605E /* GitBL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitBL.swift; sourceTree = "<group>"; };
+		20B3502D200B2779005B605E /* MainFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFactory.swift; sourceTree = "<group>"; };
+		20B35030200B80B9005B605E /* BLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLProtocol.swift; sourceTree = "<group>"; };
 		20BE5C872005C5950026AFBC /* HTTPSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSessionManager.swift; sourceTree = "<group>"; };
 		20BE5C882005C5950026AFBC /* ObjectEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectEvent.swift; sourceTree = "<group>"; };
 		20BE5C8B2005C5A50026AFBC /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
@@ -105,6 +116,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		20B3502C200B272C005B605E /* BL */ = {
+			isa = PBXGroup;
+			children = (
+				20B35028200B26A4005B605E /* BaseBL.swift */,
+				20B35030200B80B9005B605E /* BLProtocol.swift */,
+				20B3502A200B26CE005B605E /* GitBL.swift */,
+				20BE5C8D2005C7310026AFBC /* InitBL.swift */,
+			);
+			name = BL;
+			sourceTree = "<group>";
+		};
 		20CF5E512003CE420012C8F3 = {
 			isa = PBXGroup;
 			children = (
@@ -127,20 +149,21 @@
 		20CF5E5C2003CE420012C8F3 /* SenditProject */ = {
 			isa = PBXGroup;
 			children = (
-				20B35023200B21FD005B605E /* Eko.plist */,
-				20B35024200B21FD005B605E /* Sendit.plist */,
+				20B3502D200B2779005B605E /* MainFactory.swift */,
+				20B3502C200B272C005B605E /* BL */,
 				20BE5CAA2005DCCF0026AFBC /* Item+CoreDataClass.swift */,
 				20BE5CAB2005DCCF0026AFBC /* Item+CoreDataProperties.swift */,
 				20BE5CA42005DA180026AFBC /* ItemModel.swift */,
-				20BE5C8B2005C5A50026AFBC /* placeholder.png */,
 				20BE5C872005C5950026AFBC /* HTTPSessionManager.swift */,
-				20BE5C8D2005C7310026AFBC /* InitBL.swift */,
 				20BE5C882005C5950026AFBC /* ObjectEvent.swift */,
 				20CF5E5D2003CE420012C8F3 /* AppDelegate.swift */,
 				20316FD22005C3D000C3033D /* MainViewController.swift */,
 				20BE5CAE2005DD940026AFBC /* CoreDataAdapter.swift */,
 				20CF5E612003CE420012C8F3 /* Main.storyboard */,
+				20BE5C8B2005C5A50026AFBC /* placeholder.png */,
 				20CF5E642003CE420012C8F3 /* Assets.xcassets */,
+				20B35023200B21FD005B605E /* Eko.plist */,
+				20B35024200B21FD005B605E /* Sendit.plist */,
 				20CF5E662003CE420012C8F3 /* LaunchScreen.storyboard */,
 				20BE5C912005D35F0026AFBC /* SenditCoreData.xcdatamodeld */,
 				20BE5CB020060A880026AFBC /* ItemTableViewCell.swift */,
@@ -384,17 +407,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				20B35009200B2197005B605E /* ItemModel.swift in Sources */,
+				20B3502F200B2779005B605E /* MainFactory.swift in Sources */,
 				20B3500A200B2197005B605E /* AppDelegate.swift in Sources */,
 				20B3500B200B2197005B605E /* CoreDataAdapter.swift in Sources */,
 				20B3500C200B2197005B605E /* ObjectEvent.swift in Sources */,
 				20B3500D200B2197005B605E /* Item+CoreDataClass.swift in Sources */,
 				20B3500E200B2197005B605E /* ItemViewModel.swift in Sources */,
 				20B3500F200B2197005B605E /* Item+CoreDataProperties.swift in Sources */,
+				20B35034200B8825005B605E /* GitBL.swift in Sources */,
 				20B35010200B2197005B605E /* MainViewController.swift in Sources */,
+				20B35033200B880C005B605E /* BaseBL.swift in Sources */,
 				20B35011200B2197005B605E /* InitBL.swift in Sources */,
 				20B35012200B2197005B605E /* SenditCoreData.xcdatamodeld in Sources */,
 				20B35013200B2197005B605E /* ItemTableViewCell.swift in Sources */,
 				20B35014200B2197005B605E /* HTTPSessionManager.swift in Sources */,
+				20B35032200B80B9005B605E /* BLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,10 +436,13 @@
 				20BE5CAC2005DCCF0026AFBC /* Item+CoreDataClass.swift in Sources */,
 				20BE5CB320060D2A0026AFBC /* ItemViewModel.swift in Sources */,
 				20BE5CAD2005DCCF0026AFBC /* Item+CoreDataProperties.swift in Sources */,
+				20B35029200B26A4005B605E /* BaseBL.swift in Sources */,
 				20316FD32005C3D000C3033D /* MainViewController.swift in Sources */,
 				20BE5C8E2005C7310026AFBC /* InitBL.swift in Sources */,
 				20BE5C932005D35F0026AFBC /* SenditCoreData.xcdatamodeld in Sources */,
+				20B35031200B80B9005B605E /* BLProtocol.swift in Sources */,
 				20BE5CB120060A880026AFBC /* ItemTableViewCell.swift in Sources */,
+				20B3502E200B2779005B605E /* MainFactory.swift in Sources */,
 				20BE5C892005C5950026AFBC /* HTTPSessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

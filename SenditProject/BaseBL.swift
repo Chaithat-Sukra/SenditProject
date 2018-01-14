@@ -6,8 +6,8 @@
 //  Copyright © 2018 Chaithat Sukra. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class BaseBL: NSObject {
-
+    let manager: HTTPSessionManager = HTTPSessionManager()
 }
