@@ -11,8 +11,9 @@ import Alamofire
 
 class HTTPSessionManager {
     
-    public let urlString: String!
-    
+    private let urlString: String!
+    private var sessionManager = Alamofire.SessionManager()
+
     init() {
         let fileName = Bundle.main.infoDictionary?["URL"] as! String
         self.urlString = fileName
@@ -20,8 +21,12 @@ class HTTPSessionManager {
     
     func requestGET(_ aEndPoint: String, aCompletion: @escaping(ObjectEvent) -> Void) {
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
+        
+        let configuration = URLSessionConfiguration.default
+        configuration.timeoutIntervalForRequest = 10
+        self.sessionManager = Alamofire.SessionManager(configuration: configuration)
 
-        Alamofire.request(
+        self.sessionManager.request(
             URL(string: self.urlString + aEndPoint)!,
             method: .get,
             parameters: nil)

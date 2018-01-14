@@ -57,7 +57,20 @@ class MainViewController: UIViewController {
 
     private func reloadData() {
         self.bl.requestData { (aItems: [ItemModel]) in
-            self.viewModel.update(aItems: aItems)
+            if aItems.count > 0 {
+                self.viewModel.update(aItems: aItems)
+            }
+            else {
+                let alertController = UIAlertController(title: "Opps!!", message: "Something Error", preferredStyle: .alert)
+                let action = UIAlertAction(title: "OK", style: .default, handler: { (alert: UIAlertAction) in
+                    self.loading(aLoading: false)
+                    
+                    self.refreshControl.endRefreshing()
+                    self.tbItems.reloadData()
+                })
+                alertController.addAction(action)
+                self.present(alertController, animated: true, completion: nil)
+            }
         }
     }
     
@@ -75,7 +88,12 @@ class MainViewController: UIViewController {
 
 extension MainViewController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        if (self.viewModel.filteredItems.count > 0) {
+            return 1
+        }
+        else {
+            return 0;
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
