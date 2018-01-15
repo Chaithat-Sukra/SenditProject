@@ -11,6 +11,7 @@ import AlamofireImage
 
 class MainViewController: UIViewController {
     
+    @IBOutlet weak var swCat: UISegmentedControl!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var tbItems: UITableView!
     
@@ -21,6 +22,7 @@ class MainViewController: UIViewController {
     var selectedItem: ItemModel!
     
     var bl: BLProtocol!
+    var mainBL: MainCoreDataBL = MainCoreDataBL()
     
     fileprivate var viewModel: ItemViewModel = ItemViewModel() {
         didSet {
@@ -53,6 +55,16 @@ class MainViewController: UIViewController {
 
         self.loading(aLoading: true)
         self.reloadData()
+    }
+    
+    @IBAction func switchCategories(_ sender: Any) {
+        if self.swCat.selectedSegmentIndex == 0 {
+            self.viewModel.update(aItems: [])
+        }
+        else {
+            let items: [ItemModel] = self.mainBL.queryFavourites()
+            self.viewModel.updateFavourite(aItems: items)
+        }
     }
 
     func refresh(_ aSender: UIRefreshControl) {
@@ -108,7 +120,7 @@ extension MainViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.viewModel.filteredItems.count + 1
+        return self.swCat.selectedSegmentIndex == 0 ? self.viewModel.filteredItems.count + 1 : self.viewModel.filteredItems.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -133,8 +145,19 @@ extension MainViewController: UITableViewDataSource {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? ItemTableViewCell  else {
                 fatalError("The dequeued cell is not an instance of ItemTableViewCell.")
             }
-            let item: ItemModel = self.viewModel.filteredItems[indexPath.row];
             
+            let item: ItemModel = self.viewModel.filteredItems[indexPath.row];
+            cell.bDidSelect = {
+                () -> Void in
+                if item.isFavourited {
+                    self.mainBL.removeFavourited(aItemModel: item)
+                }
+                else {
+                    self.mainBL.addFavourited(aItemModel: item)
+                }
+                self.viewModel.updateItemAtIndex(aIndex: indexPath.row, aItem: item)
+            }
+            cell.btnFavourite.setTitle(item.isFavourited ? "U" : "F", for: .normal)
             let placeholderImage = UIImage(named: "placeholder")!
             cell.imgvItem.af_setImage(withURL: URL(string: item.image)!, placeholderImage: placeholderImage)
             cell.lbName.text = item.name

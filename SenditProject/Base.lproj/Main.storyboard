@@ -88,10 +88,22 @@
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTs-GZ-3UH">
+                                                    <rect key="frame" x="319" y="12" width="44" height="44"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="44" id="I8R-1c-YrB"/>
+                                                        <constraint firstAttribute="width" constant="44" id="eHo-Y5-XJh"/>
+                                                    </constraints>
+                                                    <state key="normal" title="F"/>
+                                                    <connections>
+                                                        <action selector="favouritePressed:" destination="UOB-ds-p07" eventType="touchUpInside" id="tna-qg-duK"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="6Ez-t6-E8Z" firstAttribute="top" secondItem="P7Z-yv-JJA" secondAttribute="top" id="5bQ-XH-xfX"/>
                                                 <constraint firstItem="uPd-Ah-um8" firstAttribute="leading" secondItem="P7Z-yv-JJA" secondAttribute="trailing" constant="10" id="75m-zC-b4N"/>
+                                                <constraint firstAttribute="trailing" secondItem="rTs-GZ-3UH" secondAttribute="trailing" constant="12" id="GmE-49-XlM"/>
                                                 <constraint firstItem="P7Z-yv-JJA" firstAttribute="leading" secondItem="DaH-Cf-div" secondAttribute="leading" constant="20" id="PiX-Xc-X2o"/>
                                                 <constraint firstAttribute="trailing" secondItem="uPd-Ah-um8" secondAttribute="trailing" constant="40" id="RWs-JP-AVC"/>
                                                 <constraint firstItem="qTJ-JM-Lik" firstAttribute="top" secondItem="uPd-Ah-um8" secondAttribute="bottom" constant="10" id="URt-mn-LYe"/>
@@ -101,6 +113,7 @@
                                                 <constraint firstItem="uPd-Ah-um8" firstAttribute="top" secondItem="6Ez-t6-E8Z" secondAttribute="bottom" constant="10" id="WiC-i9-zRF"/>
                                                 <constraint firstItem="6Ez-t6-E8Z" firstAttribute="centerX" secondItem="DaH-Cf-div" secondAttribute="centerX" id="Zc3-TS-qVJ"/>
                                                 <constraint firstItem="6Ez-t6-E8Z" firstAttribute="leading" secondItem="P7Z-yv-JJA" secondAttribute="trailing" constant="10" id="jrW-aa-Ymf"/>
+                                                <constraint firstItem="rTs-GZ-3UH" firstAttribute="top" secondItem="DaH-Cf-div" secondAttribute="top" constant="12" id="oGK-Jv-qMv"/>
                                                 <constraint firstItem="qTJ-JM-Lik" firstAttribute="leading" secondItem="P7Z-yv-JJA" secondAttribute="trailing" constant="10" id="ob1-1F-htI"/>
                                                 <constraint firstItem="P7Z-yv-JJA" firstAttribute="top" secondItem="DaH-Cf-div" secondAttribute="top" constant="20" id="q4r-kw-KJ2"/>
                                                 <constraint firstItem="uPd-Ah-um8" firstAttribute="leading" secondItem="DaH-Cf-div" secondAttribute="leading" constant="40" id="t1c-hE-4DT"/>
@@ -130,6 +143,7 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="btnFavourite" destination="rTs-GZ-3UH" id="0LO-hk-bEe"/>
                                             <outlet property="imgvItem" destination="P7Z-yv-JJA" id="HcK-sX-XLJ"/>
                                             <outlet property="lbDesc" destination="uPd-Ah-um8" id="z7X-Lc-hZs"/>
                                             <outlet property="lbName" destination="6Ez-t6-E8Z" id="NeQ-HZ-3L6"/>
@@ -168,16 +182,30 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <navigationItem key="navigationItem" id="zZY-IX-6m0"/>
+                    <navigationItem key="navigationItem" id="zZY-IX-6m0">
+                        <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="yB5-F1-7x1">
+                            <rect key="frame" x="112.5" y="7" width="150" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="All"/>
+                                <segment title="Favourite"/>
+                            </segments>
+                            <connections>
+                                <action selector="switchCategories:" destination="BYZ-38-t0r" eventType="valueChanged" id="fDW-KU-g8b"/>
+                            </connections>
+                        </segmentedControl>
+                    </navigationItem>
                     <connections>
                         <outlet property="activityIndicator" destination="ddV-79-anw" id="BIT-8T-1WT"/>
+                        <outlet property="swCat" destination="yB5-F1-7x1" id="RsQ-JJ-Ll2"/>
                         <outlet property="tbItems" destination="t1o-Q0-usb" id="L9Y-ve-Kch"/>
                         <segue destination="hSv-hu-9E2" kind="show" identifier="main_detail" id="IfY-c5-d68"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-207" y="0.0"/>
+            <point key="canvasLocation" x="-207.19999999999999" y="-0.44977511244377816"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="dHf-3F-s5v">

@@ -23,7 +23,7 @@ class InitBL: BaseBL, BLProtocol {
                     let url = o["url"] as! String
                     let image = o["image"] as! String
                     
-                    let itemModel: ItemModel = ItemModel(id: id, name: name, desc: desc, icon: icon, timestamp: timestamp, url: url, image: image)
+                    let itemModel: ItemModel = ItemModel(id: id, name: name, desc: desc, icon: icon, timestamp: timestamp, url: url, image: image, isFavourited: false)
                     
                     let item = NSEntityDescription.insertNewObject(forEntityName: "Item", into: CoreDataAdapter.sharedInstance.persistentContainer.viewContext) as! Item
                     item.id = Int16(itemModel.id)

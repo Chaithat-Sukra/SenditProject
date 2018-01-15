@@ -16,4 +16,5 @@ struct ItemModel {
     var timestamp: Int64!
     var url: String!
     var image: String!
+    var isFavourited: Bool!
 }

@@ -37,6 +37,8 @@
 		20B35037200B9D00005B605E /* LoadMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35035200B9D00005B605E /* LoadMoreTableViewCell.swift */; };
 		20B35039200B9E13005B605E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35038200B9E13005B605E /* DetailViewController.swift */; };
 		20B3503A200B9E13005B605E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35038200B9E13005B605E /* DetailViewController.swift */; };
+		20B3503C200D29F4005B605E /* MainCoreDataBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3503B200D29F4005B605E /* MainCoreDataBL.swift */; };
+		20B3503D200D29F4005B605E /* MainCoreDataBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3503B200D29F4005B605E /* MainCoreDataBL.swift */; };
 		20BE5C892005C5950026AFBC /* HTTPSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5C872005C5950026AFBC /* HTTPSessionManager.swift */; };
 		20BE5C8A2005C5950026AFBC /* ObjectEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5C882005C5950026AFBC /* ObjectEvent.swift */; };
 		20BE5C8C2005C5A50026AFBC /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BE5C8B2005C5A50026AFBC /* placeholder.png */; };
@@ -68,6 +70,7 @@
 		20B35030200B80B9005B605E /* BLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLProtocol.swift; sourceTree = "<group>"; };
 		20B35035200B9D00005B605E /* LoadMoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadMoreTableViewCell.swift; sourceTree = "<group>"; };
 		20B35038200B9E13005B605E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		20B3503B200D29F4005B605E /* MainCoreDataBL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoreDataBL.swift; sourceTree = "<group>"; };
 		20BE5C872005C5950026AFBC /* HTTPSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSessionManager.swift; sourceTree = "<group>"; };
 		20BE5C882005C5950026AFBC /* ObjectEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectEvent.swift; sourceTree = "<group>"; };
 		20BE5C8B2005C5A50026AFBC /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
@@ -129,8 +132,55 @@
 				20B35030200B80B9005B605E /* BLProtocol.swift */,
 				20B3502A200B26CE005B605E /* GitBL.swift */,
 				20BE5C8D2005C7310026AFBC /* InitBL.swift */,
+				20B3503B200D29F4005B605E /* MainCoreDataBL.swift */,
 			);
 			name = BL;
+			sourceTree = "<group>";
+		};
+		20B3503E200D37AD005B605E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20BE5C882005C5950026AFBC /* ObjectEvent.swift */,
+				20BE5CA42005DA180026AFBC /* ItemModel.swift */,
+				20BE5CAA2005DCCF0026AFBC /* Item+CoreDataClass.swift */,
+				20BE5CAB2005DCCF0026AFBC /* Item+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		20B3503F200D37BD005B605E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				20BE5C872005C5950026AFBC /* HTTPSessionManager.swift */,
+				20BE5CAE2005DD940026AFBC /* CoreDataAdapter.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		20B35040200D37CC005B605E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				20BE5CB020060A880026AFBC /* ItemTableViewCell.swift */,
+				20B35035200B9D00005B605E /* LoadMoreTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		20B35041200D37D4005B605E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20316FD22005C3D000C3033D /* MainViewController.swift */,
+				20B35038200B9E13005B605E /* DetailViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		20B35042200D37DC005B605E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				20BE5CB220060D2A0026AFBC /* ItemViewModel.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 		20CF5E512003CE420012C8F3 = {
@@ -155,16 +205,14 @@
 		20CF5E5C2003CE420012C8F3 /* SenditProject */ = {
 			isa = PBXGroup;
 			children = (
-				20B3502D200B2779005B605E /* MainFactory.swift */,
-				20B3502C200B272C005B605E /* BL */,
-				20BE5CAA2005DCCF0026AFBC /* Item+CoreDataClass.swift */,
-				20BE5CAB2005DCCF0026AFBC /* Item+CoreDataProperties.swift */,
-				20BE5CA42005DA180026AFBC /* ItemModel.swift */,
-				20BE5C872005C5950026AFBC /* HTTPSessionManager.swift */,
-				20BE5C882005C5950026AFBC /* ObjectEvent.swift */,
 				20CF5E5D2003CE420012C8F3 /* AppDelegate.swift */,
-				20316FD22005C3D000C3033D /* MainViewController.swift */,
-				20BE5CAE2005DD940026AFBC /* CoreDataAdapter.swift */,
+				20B3502D200B2779005B605E /* MainFactory.swift */,
+				20B35040200D37CC005B605E /* Cell */,
+				20B35042200D37DC005B605E /* ViewModel */,
+				20B3502C200B272C005B605E /* BL */,
+				20B3503E200D37AD005B605E /* Model */,
+				20B3503F200D37BD005B605E /* Utility */,
+				20B35041200D37D4005B605E /* ViewController */,
 				20CF5E612003CE420012C8F3 /* Main.storyboard */,
 				20BE5C8B2005C5A50026AFBC /* placeholder.png */,
 				20CF5E642003CE420012C8F3 /* Assets.xcassets */,
@@ -172,10 +220,6 @@
 				20B35024200B21FD005B605E /* Sendit.plist */,
 				20CF5E662003CE420012C8F3 /* LaunchScreen.storyboard */,
 				20BE5C912005D35F0026AFBC /* SenditCoreData.xcdatamodeld */,
-				20BE5CB020060A880026AFBC /* ItemTableViewCell.swift */,
-				20B35035200B9D00005B605E /* LoadMoreTableViewCell.swift */,
-				20BE5CB220060D2A0026AFBC /* ItemViewModel.swift */,
-				20B35038200B9E13005B605E /* DetailViewController.swift */,
 			);
 			path = SenditProject;
 			sourceTree = "<group>";
@@ -418,6 +462,7 @@
 				20B3502F200B2779005B605E /* MainFactory.swift in Sources */,
 				20B3500A200B2197005B605E /* AppDelegate.swift in Sources */,
 				20B3500B200B2197005B605E /* CoreDataAdapter.swift in Sources */,
+				20B3503D200D29F4005B605E /* MainCoreDataBL.swift in Sources */,
 				20B3500C200B2197005B605E /* ObjectEvent.swift in Sources */,
 				20B3500D200B2197005B605E /* Item+CoreDataClass.swift in Sources */,
 				20B3500E200B2197005B605E /* ItemViewModel.swift in Sources */,
@@ -444,6 +489,7 @@
 				20CF5E5E2003CE420012C8F3 /* AppDelegate.swift in Sources */,
 				20BE5CAF2005DD940026AFBC /* CoreDataAdapter.swift in Sources */,
 				20BE5C8A2005C5950026AFBC /* ObjectEvent.swift in Sources */,
+				20B3503C200D29F4005B605E /* MainCoreDataBL.swift in Sources */,
 				20BE5CAC2005DCCF0026AFBC /* Item+CoreDataClass.swift in Sources */,
 				20BE5CB320060D2A0026AFBC /* ItemViewModel.swift in Sources */,
 				20BE5CAD2005DCCF0026AFBC /* Item+CoreDataProperties.swift in Sources */,

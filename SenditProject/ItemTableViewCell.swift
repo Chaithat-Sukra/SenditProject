@@ -10,14 +10,21 @@ import UIKit
 
 class ItemTableViewCell: UITableViewCell {
 
+    var bDidSelect: (Void) -> Void = {_ in }
+    
     @IBOutlet weak var lbName: UILabel!
     @IBOutlet weak var imgvItem: UIImageView!
     @IBOutlet weak var lbDesc: UILabel!
     @IBOutlet weak var lbURL: UILabel!
+    @IBOutlet weak var btnFavourite: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+    }
+    
+    @IBAction func favouritePressed(_ sender: Any) {
+        bDidSelect()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
