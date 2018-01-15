@@ -33,6 +33,10 @@
 		20B35032200B80B9005B605E /* BLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35030200B80B9005B605E /* BLProtocol.swift */; };
 		20B35033200B880C005B605E /* BaseBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35028200B26A4005B605E /* BaseBL.swift */; };
 		20B35034200B8825005B605E /* GitBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3502A200B26CE005B605E /* GitBL.swift */; };
+		20B35036200B9D00005B605E /* LoadMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35035200B9D00005B605E /* LoadMoreTableViewCell.swift */; };
+		20B35037200B9D00005B605E /* LoadMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35035200B9D00005B605E /* LoadMoreTableViewCell.swift */; };
+		20B35039200B9E13005B605E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35038200B9E13005B605E /* DetailViewController.swift */; };
+		20B3503A200B9E13005B605E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B35038200B9E13005B605E /* DetailViewController.swift */; };
 		20BE5C892005C5950026AFBC /* HTTPSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5C872005C5950026AFBC /* HTTPSessionManager.swift */; };
 		20BE5C8A2005C5950026AFBC /* ObjectEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE5C882005C5950026AFBC /* ObjectEvent.swift */; };
 		20BE5C8C2005C5A50026AFBC /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BE5C8B2005C5A50026AFBC /* placeholder.png */; };
@@ -62,6 +66,8 @@
 		20B3502A200B26CE005B605E /* GitBL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitBL.swift; sourceTree = "<group>"; };
 		20B3502D200B2779005B605E /* MainFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFactory.swift; sourceTree = "<group>"; };
 		20B35030200B80B9005B605E /* BLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLProtocol.swift; sourceTree = "<group>"; };
+		20B35035200B9D00005B605E /* LoadMoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadMoreTableViewCell.swift; sourceTree = "<group>"; };
+		20B35038200B9E13005B605E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		20BE5C872005C5950026AFBC /* HTTPSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSessionManager.swift; sourceTree = "<group>"; };
 		20BE5C882005C5950026AFBC /* ObjectEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectEvent.swift; sourceTree = "<group>"; };
 		20BE5C8B2005C5A50026AFBC /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
@@ -167,7 +173,9 @@
 				20CF5E662003CE420012C8F3 /* LaunchScreen.storyboard */,
 				20BE5C912005D35F0026AFBC /* SenditCoreData.xcdatamodeld */,
 				20BE5CB020060A880026AFBC /* ItemTableViewCell.swift */,
+				20B35035200B9D00005B605E /* LoadMoreTableViewCell.swift */,
 				20BE5CB220060D2A0026AFBC /* ItemViewModel.swift */,
+				20B35038200B9E13005B605E /* DetailViewController.swift */,
 			);
 			path = SenditProject;
 			sourceTree = "<group>";
@@ -415,10 +423,12 @@
 				20B3500E200B2197005B605E /* ItemViewModel.swift in Sources */,
 				20B3500F200B2197005B605E /* Item+CoreDataProperties.swift in Sources */,
 				20B35034200B8825005B605E /* GitBL.swift in Sources */,
+				20B3503A200B9E13005B605E /* DetailViewController.swift in Sources */,
 				20B35010200B2197005B605E /* MainViewController.swift in Sources */,
 				20B35033200B880C005B605E /* BaseBL.swift in Sources */,
 				20B35011200B2197005B605E /* InitBL.swift in Sources */,
 				20B35012200B2197005B605E /* SenditCoreData.xcdatamodeld in Sources */,
+				20B35037200B9D00005B605E /* LoadMoreTableViewCell.swift in Sources */,
 				20B35013200B2197005B605E /* ItemTableViewCell.swift in Sources */,
 				20B35014200B2197005B605E /* HTTPSessionManager.swift in Sources */,
 				20B35032200B80B9005B605E /* BLProtocol.swift in Sources */,
@@ -430,6 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BE5CA52005DA180026AFBC /* ItemModel.swift in Sources */,
+				20B35039200B9E13005B605E /* DetailViewController.swift in Sources */,
 				20CF5E5E2003CE420012C8F3 /* AppDelegate.swift in Sources */,
 				20BE5CAF2005DD940026AFBC /* CoreDataAdapter.swift in Sources */,
 				20BE5C8A2005C5950026AFBC /* ObjectEvent.swift in Sources */,
@@ -441,6 +452,7 @@
 				20BE5C8E2005C7310026AFBC /* InitBL.swift in Sources */,
 				20BE5C932005D35F0026AFBC /* SenditCoreData.xcdatamodeld in Sources */,
 				20B35031200B80B9005B605E /* BLProtocol.swift in Sources */,
+				20B35036200B9D00005B605E /* LoadMoreTableViewCell.swift in Sources */,
 				20BE5CB120060A880026AFBC /* ItemTableViewCell.swift in Sources */,
 				20B3502E200B2779005B605E /* MainFactory.swift in Sources */,
 				20BE5C892005C5950026AFBC /* HTTPSessionManager.swift in Sources */,

@@ -9,5 +9,5 @@
 import Foundation
 
 protocol BLProtocol {
-    func requestData(aSuccess: @escaping ([ItemModel]) -> Void)
+    func requestData(aPage: Int, aSuccess: @escaping ([ItemModel]) -> Void)
 }

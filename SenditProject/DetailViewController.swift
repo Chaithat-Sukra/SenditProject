@@ -8,28 +8,21 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController, UIWebViewDelegate {
 
+    public var selectedItem: ItemModel!
+    
+    @IBOutlet weak var vWeb: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        self.vWeb.delegate = self
+        self.vWeb.loadRequest(URLRequest(url: URL(string: selectedItem.url)!))
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        self.vWeb.frame.size.height = 1
+        self.vWeb.frame.size = webView.sizeThatFits(.zero)
     }
-    */
-
 }

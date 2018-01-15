@@ -15,7 +15,7 @@ struct ItemViewModel {
 
 extension ItemViewModel {
     public mutating func update(aItems: [ItemModel]) {
-        self.items = aItems
-        self.filteredItems = aItems
+        self.items.append(contentsOf: aItems)
+        self.filteredItems = self.items
     }
 }

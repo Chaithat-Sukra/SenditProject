@@ -9,13 +9,13 @@
 import CoreData
 
 class InitBL: BaseBL, BLProtocol {
-    func requestData(aSuccess: @escaping ([ItemModel]) -> Void) {
+    func requestData(aPage: Int, aSuccess: @escaping ([ItemModel]) -> Void) {
         manager.requestGET("api/items/list.json") { (aEvent: ObjectEvent) in
             if aEvent.isSuccessful {
                 var items: [ItemModel] = [ItemModel]()
                 for o in aEvent.result {
                     
-                    let id = o["id"] as! Int16
+                    let id = o["id"] as! Int
                     let name = o["name"] as! String
                     let desc = o["description"] as! String
                     let icon = o["icon"] as! String
@@ -26,7 +26,7 @@ class InitBL: BaseBL, BLProtocol {
                     let itemModel: ItemModel = ItemModel(id: id, name: name, desc: desc, icon: icon, timestamp: timestamp, url: url, image: image)
                     
                     let item = NSEntityDescription.insertNewObject(forEntityName: "Item", into: CoreDataAdapter.sharedInstance.persistentContainer.viewContext) as! Item
-                    item.id = itemModel.id
+                    item.id = Int16(itemModel.id)
                     item.name = itemModel.name
                     item.desc = itemModel.desc
                     item.icon = itemModel.icon
@@ -41,7 +41,7 @@ class InitBL: BaseBL, BLProtocol {
                     if aCompletion == true {
                         aSuccess(items)
                     }
-                }   
+                }
             }
             else {
                 aSuccess([])
